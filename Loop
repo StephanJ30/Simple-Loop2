@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() 
+{
+	const int Flurbos = 900;
+	int cadets, killed, survivors;
+	string seargent;
+	
+	cout << "welcome to Outer Space - The Final Frontier\n\n";
+	cout << "please enter the following to explore a universe\n";
+	
+	cout << "enter a number: ";
+	cin >> cadets;
+	
+	cout << "enter a number smaller than the first: ";
+	cin >> killed;
+	
+	survivors = cadets - killed;
+	
+	cout << "enter your name: ";
+	cin >> seargent;
+	
+	return 0;
+}
+
